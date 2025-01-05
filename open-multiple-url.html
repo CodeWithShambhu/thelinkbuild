@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple URLs Opener | The Link Build</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav id="nav">
+        <span id="logo"><a href="/">The Link Build</a></span>
+        <ul class="flex">
+          <li><a href="#">Tools</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div>
+          <button class="hbutton">Log In</button>
+          <button class="hbutton">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+    <section id="coming-soon">
+      <h1>Insert Multiple URLs</h1>
+      <p>
+        Please insert bulk website URLs in below text area and click on Open
+        <br />
+        All Now button.
+      </p>
+      <div id="align-center">
+        <textarea
+          name="list_urls"
+          id="list_urls"
+          rows="12"
+          placeholder="Paste your URLs Here One Per Line"
+        ></textarea>
+        <button id="open_all" onclick="open_all();">Open All Now</button>
+      </div>
+    </section>
+    <footer id="footer">
+      <p id="copyright">
+        @ Copyright 2024 <a href="/"><strong>The Link Build</strong></a
+        >, All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
